@@ -9,6 +9,16 @@ html {
 body {
     margin: 0;
 }
+.navbar2 {
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    background: linear-gradient(130deg, #395FF6 , #EB3FA9);
+}
+.divHeader {
+
+}
+
+
 
 article,
 aside,
