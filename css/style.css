@@ -8274,6 +8274,24 @@ transition: all .4s ease-in-out; */
         grid-column-end: span 1;
     }
 }
+
+#liste .table {
+    background-color: #0e0e20;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+
+.iframe{
+    display: flex;
+}
+iframe {
+    width: 90%;
+    margin: 0 auto;
+}
+
 @media (max-width: 991px) {
     .tokenomics-wrapper {
         margin-bottom: 0px;
@@ -8288,6 +8306,9 @@ transition: all .4s ease-in-out; */
         width: 80%;
         /* margin: 20px 30px; */
     }
+    iframe {
+        width: 98%;
+    }
 }
 @media (max-width: 767px) {
     .tokenomics-wrapper {
@@ -8296,6 +8317,9 @@ transition: all .4s ease-in-out; */
     }
     .tokenomic {
         width: 80%;
+    }
+    .iframe{
+        display: none;
     }
 }
 @media (max-width: 628px) {
@@ -8374,3 +8398,13 @@ a:hover {
     color: white !important;
 }
 
+.tokenomic {
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+.tokenomic:hover {
+    transform: translateY(-20px) scale(1.1, 1.1);
+    background-image: linear-gradient(
+145deg, #896b93, #0e0e43);
+}

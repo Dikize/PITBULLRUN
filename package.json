@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dikize/PITBULLRUN/issues"
   },
-  "homepage": "https://github.com/Dikize/PITBULLRUN#readme"
+  "homepage": "https://github.com/Dikize/PITBULLRUN#readme",
+  "dependencies": {
+    "bsc-scan": "^1.2.0"
+  }
 }
