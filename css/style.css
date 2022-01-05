@@ -8274,8 +8274,33 @@ transition: all .4s ease-in-out; */
         grid-column-end: span 1;
     }
 }
+@media (max-width: 991px) {
+    .tokenomics-wrapper {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .tokenomic {
+        width: 32%;
+        margin: 20px 30px;
+        align-items: center;
+    }
+    .roadmap-q {
+        width: 80%;
+        /* margin: 20px 30px; */
+    }
+}
 @media (max-width: 628px) {
-    
+    .hero-image-wrapper {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .c-faq-q2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .c-faq-q-text {
+        margin-top: 0px;
+    }
 }
 
 @font-face {
